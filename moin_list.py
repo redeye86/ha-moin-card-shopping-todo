@@ -55,6 +55,8 @@ Aufruf:
   python3 moin_list.py add "Milch" "Brot" "Eier"
   python3 moin_list.py add --qty 3 "Bananen"
   python3 moin_list.py addfile einkauf.txt      # eine Zutat pro Zeile
+  python3 moin_list.py vocab --out data         # Vokabular -> CSV/JSON/TXT
+  python3 moin_list.py vocab --standard         # nur Standardliste
   python3 moin_list.py --raw lists              # volle Serverantwort anzeigen
 
 `add` legt automatisch eine "Einkaufsliste" an, falls noch keine existiert.
@@ -206,6 +208,71 @@ class MoinClient:
         }
         return self.post("/api/shoppinglist/item/update", body)
 
+    def vocabulary(self, standard: bool = False):
+        """Vokabular laden (persoenlich gemerged: Standard + selfCreated)."""
+        path = (
+            "/api/shoppinglist/vocabulary/standardlist"
+            if standard
+            else "/api/shoppinglist/vocabulary/list"
+        )
+        resp = self.get(path)
+        if not resp:
+            resp = self.get("/api/shoppinglist/vocabulary/standardlist")
+        return resp or []
+
+
+def export_vocab(entries, outdir: str = "data"):
+    """Schreibt vocabulary.csv, vocabulary.json und vocabulary_names.txt."""
+    import csv
+    import os
+
+    os.makedirs(outdir, exist_ok=True)
+    seen = set()
+    items = []
+    for entry in entries:
+        name = (entry.get("name") or "").strip()
+        category = entry.get("category")
+        if not name or (name, category) in seen:
+            continue
+        seen.add((name, category))
+        items.append(
+            {
+                "id": entry.get("id"),
+                "name": name,
+                "category": category,
+                "selfCreated": bool(entry.get("selfCreated", False)),
+            }
+        )
+    items.sort(key=lambda x: ((x["category"] or ""), x["name"].lower()))
+    categories = sorted({i["category"] for i in items if i["category"]})
+    by_category = {
+        c: [i["name"] for i in items if i["category"] == c] for c in categories
+    }
+
+    with open(os.path.join(outdir, "vocabulary.csv"), "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["id", "name", "category", "selfCreated"])
+        for i in items:
+            writer.writerow([i["id"], i["name"], i["category"], str(i["selfCreated"]).lower()])
+
+    with open(os.path.join(outdir, "vocabulary_names.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(i["name"] for i in items) + "\n")
+
+    with open(os.path.join(outdir, "vocabulary.json"), "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "count": len(items),
+                "categories": categories,
+                "items": items,
+                "names": [i["name"] for i in items],
+                "by_category": by_category,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+    return len(items), categories
+
 
 def _print_lists(lists):
     if not lists:
@@ -251,6 +318,10 @@ def main():
     sp_file.add_argument("file")
     sp_create = sub.add_parser("create")
     sp_create.add_argument("name", nargs="?", default="Einkaufsliste")
+    sp_vocab = sub.add_parser("vocab", help="Vokabular als CSV/JSON/TXT exportieren")
+    sp_vocab.add_argument("--out", default="data", help="Zielordner (Standard: data)")
+    sp_vocab.add_argument("--standard", action="store_true",
+                          help="nur die Standardliste (ohne persoenliche Eintraege)")
 
     args = p.parse_args()
 
@@ -277,6 +348,12 @@ def main():
             entry = client.create_list(args.name)
             print(f"Liste angelegt: {entry.get('name')} "
                   f"(id={entry.get('id')}, internalId={entry.get('internalId')})")
+
+        elif args.cmd == "vocab":
+            entries = client.vocabulary(standard=args.standard)
+            count, cats = export_vocab(entries, args.out)
+            print(f"{count} Einträge, {len(cats)} Kategorien -> "
+                  f"{args.out}/vocabulary.csv, vocabulary.json, vocabulary_names.txt")
 
         elif args.cmd == "show":
             entry = client.resolve_list(args.list_id)

@@ -1,0 +1,2664 @@
+{
+  "count": 326,
+  "categories": [
+    "Alkohol",
+    "Backwaren",
+    "Fleisch, Fisch",
+    "Frische, Milchprodukte",
+    "Getreideprodukte",
+    "Getränke",
+    "Haushalt",
+    "Kaffee, Tee & Kakao",
+    "Koch-, Backzutaten",
+    "Konserven",
+    "Obst & Gemüse",
+    "Pflege & Gesundheit",
+    "Süßwaren, Snacks",
+    "Tiefkühlprodukte",
+    "Tierbedarf"
+  ],
+  "items": [
+    {
+      "id": 240,
+      "name": "Bier",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 241,
+      "name": "Champagner",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 247,
+      "name": "Gin",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 251,
+      "name": "Rotwein",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 252,
+      "name": "Rum",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 253,
+      "name": "Schnaps",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 254,
+      "name": "Sekt",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 260,
+      "name": "Weißwein",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 261,
+      "name": "Whiskey",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 262,
+      "name": "Wodka",
+      "category": "Alkohol",
+      "selfCreated": false
+    },
+    {
+      "id": 75,
+      "name": "Baguette",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 76,
+      "name": "Brot",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 77,
+      "name": "Brötchen",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 78,
+      "name": "Croissant",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 79,
+      "name": "Hefezopf",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 80,
+      "name": "Knäckebrot",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 81,
+      "name": "Muffins",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 82,
+      "name": "Toast",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 83,
+      "name": "Waffeln",
+      "category": "Backwaren",
+      "selfCreated": false
+    },
+    {
+      "id": 114,
+      "name": "Aufschnitt",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 115,
+      "name": "Bratwurst",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 116,
+      "name": "Fisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 117,
+      "name": "Fleisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 118,
+      "name": "Frankfurter",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 119,
+      "name": "Garnelen",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 120,
+      "name": "Hackfleisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 121,
+      "name": "Hähnchen",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 122,
+      "name": "Hähnchenbrust",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 123,
+      "name": "Kalbfleisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 124,
+      "name": "Kassler",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 125,
+      "name": "Lachs",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 126,
+      "name": "Lamm",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 127,
+      "name": "Muscheln",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 128,
+      "name": "Rindergeschnetzeltes",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 129,
+      "name": "Rindfleisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 130,
+      "name": "Rohschinken",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 131,
+      "name": "Salami",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 132,
+      "name": "Sardellen",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 133,
+      "name": "Schinken",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 134,
+      "name": "Schnitzel",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 135,
+      "name": "Schweinefleisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 136,
+      "name": "Speck",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 137,
+      "name": "Steak",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 138,
+      "name": "Thunfisch",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 139,
+      "name": "Wurst",
+      "category": "Fleisch, Fisch",
+      "selfCreated": false
+    },
+    {
+      "id": 140,
+      "name": "Blauschimmelkäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 141,
+      "name": "Burrata",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 142,
+      "name": "Butter",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 143,
+      "name": "Creme fraiche",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 144,
+      "name": "Eier",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 145,
+      "name": "Feta",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 146,
+      "name": "Fonduekäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 147,
+      "name": "Frischkäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 148,
+      "name": "Gorgonzola",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 149,
+      "name": "Hüttenkäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 150,
+      "name": "Joghurt",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 152,
+      "name": "Kräuterbutter",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 151,
+      "name": "Käse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 153,
+      "name": "Margarine",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 154,
+      "name": "Mascarpone",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 155,
+      "name": "Milch",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 156,
+      "name": "Mozzarella",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 157,
+      "name": "Parmesan",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 158,
+      "name": "Quark",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 159,
+      "name": "Raclettekäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 160,
+      "name": "Reibekäse",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 161,
+      "name": "Ricotta",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 162,
+      "name": "Sahne",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 163,
+      "name": "Sauerrahm",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 164,
+      "name": "Schmand",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 165,
+      "name": "Sojamilch",
+      "category": "Frische, Milchprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 84,
+      "name": "Corn Flakes",
+      "category": "Getreideprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 85,
+      "name": "Haferflocken",
+      "category": "Getreideprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 86,
+      "name": "Müsli",
+      "category": "Getreideprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 239,
+      "name": "Apfelsaft",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 242,
+      "name": "Cola",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 243,
+      "name": "Cola Light",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 244,
+      "name": "Eistee",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 245,
+      "name": "Energy Drink",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 246,
+      "name": "Getränke",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 248,
+      "name": "Limonade",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 249,
+      "name": "Mineralwasser",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 250,
+      "name": "Orangensaft",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 255,
+      "name": "Sirup",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 256,
+      "name": "Smoothie",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 257,
+      "name": "Sportgetränk",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 258,
+      "name": "Tonic",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 259,
+      "name": "Wasser",
+      "category": "Getränke",
+      "selfCreated": false
+    },
+    {
+      "id": 263,
+      "name": "Alufolie",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 264,
+      "name": "Babynahrung",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 265,
+      "name": "Backpapier",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 266,
+      "name": "Badreiniger",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 267,
+      "name": "Batterien",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 268,
+      "name": "Blumen",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 269,
+      "name": "Frischhaltefolie",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 270,
+      "name": "Geschenkpapier",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 271,
+      "name": "Geschirrsalz",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 272,
+      "name": "Geschirrtabs",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 273,
+      "name": "Glasreiniger",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 274,
+      "name": "Glühbirne",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 275,
+      "name": "Kerzen",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 276,
+      "name": "Klarspüler",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 277,
+      "name": "Küchenrolle",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 278,
+      "name": "Müllsäcke",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 279,
+      "name": "Putzmittel",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 280,
+      "name": "Schwamm",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 281,
+      "name": "Servietten",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 282,
+      "name": "Spülmittel",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 283,
+      "name": "Streichhölzer",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 284,
+      "name": "Strohhalme",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 285,
+      "name": "Toilettenreiniger",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 286,
+      "name": "Waschmittel",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 287,
+      "name": "Weichspüler",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 320,
+      "name": "Zahnseide",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 288,
+      "name": "Zahnstocher",
+      "category": "Haushalt",
+      "selfCreated": false
+    },
+    {
+      "id": 87,
+      "name": "Kaffee",
+      "category": "Kaffee, Tee & Kakao",
+      "selfCreated": false
+    },
+    {
+      "id": 88,
+      "name": "Kaffeebohnen",
+      "category": "Kaffee, Tee & Kakao",
+      "selfCreated": false
+    },
+    {
+      "id": 89,
+      "name": "Kaffeepads",
+      "category": "Kaffee, Tee & Kakao",
+      "selfCreated": false
+    },
+    {
+      "id": 90,
+      "name": "Kakao",
+      "category": "Kaffee, Tee & Kakao",
+      "selfCreated": false
+    },
+    {
+      "id": 91,
+      "name": "Tee",
+      "category": "Kaffee, Tee & Kakao",
+      "selfCreated": false
+    },
+    {
+      "id": 178,
+      "name": "Ahornsirup",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 179,
+      "name": "Backpulver",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 180,
+      "name": "Balsamico",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 166,
+      "name": "Basmatireis",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 181,
+      "name": "BBQ Sauce",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 182,
+      "name": "Bratensauce",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 183,
+      "name": "Brühe",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 167,
+      "name": "Couscous",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 184,
+      "name": "Dip",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 185,
+      "name": "Essig",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 168,
+      "name": "Gnocchi",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 169,
+      "name": "Gries",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 186,
+      "name": "Haselnüsse",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 187,
+      "name": "Hefe",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 188,
+      "name": "Kartoffelpüree",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 189,
+      "name": "Ketchup",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 170,
+      "name": "Kichererbsen",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 190,
+      "name": "Linsen",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 191,
+      "name": "Mandelmus",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 192,
+      "name": "Mandeln",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 193,
+      "name": "Marzipan",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 171,
+      "name": "Mehl",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 172,
+      "name": "Nudeln",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 194,
+      "name": "Nüsse",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 196,
+      "name": "Olivenöl",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 197,
+      "name": "Oregano",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 198,
+      "name": "Paprikapulver",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 173,
+      "name": "Penne",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 199,
+      "name": "Pfeffer",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 200,
+      "name": "Pfefferkörner",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 201,
+      "name": "Pinienkerne",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 202,
+      "name": "Preiselbeer Sauce",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 203,
+      "name": "Puderzucker",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 174,
+      "name": "Reis",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 175,
+      "name": "Risottoreis",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 204,
+      "name": "Rosmarin",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 205,
+      "name": "Salatsauce",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 206,
+      "name": "Salz",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 207,
+      "name": "Semmelbrösel",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 208,
+      "name": "Senf",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 209,
+      "name": "Sojasauce",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 176,
+      "name": "Spaghetti",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 210,
+      "name": "Speisestärke",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 177,
+      "name": "Tofu",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 211,
+      "name": "Tomatenmark",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 212,
+      "name": "Vanillezucker",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 213,
+      "name": "Walnüsse",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 214,
+      "name": "Zimt",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 215,
+      "name": "Zucker",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 195,
+      "name": "Öl",
+      "category": "Koch-, Backzutaten",
+      "selfCreated": false
+    },
+    {
+      "id": 220,
+      "name": "Apfelmus",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 221,
+      "name": "Bohnen",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 222,
+      "name": "Dosentomaten",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 216,
+      "name": "Essiggurken",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 223,
+      "name": "Kokosmilch",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 225,
+      "name": "Majonaise",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 218,
+      "name": "Pasta Sauce",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 219,
+      "name": "Sauerkraut",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 224,
+      "name": "Silberzwiebeln",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 217,
+      "name": "Tomatensauce",
+      "category": "Konserven",
+      "selfCreated": false
+    },
+    {
+      "id": 1,
+      "name": "Ananas",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 3,
+      "name": "Aprikosen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 4,
+      "name": "Artischocken",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 5,
+      "name": "Aubergine",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 6,
+      "name": "Avocado",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 7,
+      "name": "Bananen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 8,
+      "name": "Basilikum",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 9,
+      "name": "Beeren",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 10,
+      "name": "Birnen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 11,
+      "name": "Blumenkohl",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 12,
+      "name": "Brokkoli",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 13,
+      "name": "Brombeeren",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 14,
+      "name": "Champignons",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 15,
+      "name": "Cherrytomaten",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 16,
+      "name": "Chili",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 17,
+      "name": "Datteln",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 18,
+      "name": "Erbsen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 19,
+      "name": "Erdbeeren",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 20,
+      "name": "Feigen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 21,
+      "name": "Fenchel",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 22,
+      "name": "Frühlingszwiebeln",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 23,
+      "name": "Grapefruit",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 24,
+      "name": "Grüne Bohnen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 25,
+      "name": "Gurke",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 26,
+      "name": "Heidelbeeren",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 27,
+      "name": "Himbeeren",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 28,
+      "name": "Ingwer",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 29,
+      "name": "Kaki",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 30,
+      "name": "Karotten",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 31,
+      "name": "Kartoffeln",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 32,
+      "name": "Kirschen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 33,
+      "name": "Kiwi",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 34,
+      "name": "Kohl",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 35,
+      "name": "Kohlrabi",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 36,
+      "name": "Koriander",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 37,
+      "name": "Kräuter",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 38,
+      "name": "Kürbis",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 39,
+      "name": "Lattich",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 40,
+      "name": "Lauch",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 41,
+      "name": "Limette",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 42,
+      "name": "Mais",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 43,
+      "name": "Mandarinen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 44,
+      "name": "Mango",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 45,
+      "name": "Melone",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 46,
+      "name": "Nektarine",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 47,
+      "name": "Obst",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 48,
+      "name": "Oliven",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 49,
+      "name": "Orange",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 50,
+      "name": "Paprika",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 51,
+      "name": "Passionsfrucht",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 52,
+      "name": "Petersilie",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 53,
+      "name": "Pfefferminze",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 54,
+      "name": "Pfirsich",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 55,
+      "name": "Pflaumen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 56,
+      "name": "Pilze",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 57,
+      "name": "Radieschen",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 58,
+      "name": "Rhabarber",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 59,
+      "name": "Rote Bete",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 60,
+      "name": "Rucola",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 61,
+      "name": "Salat",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 62,
+      "name": "Salbei",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 63,
+      "name": "Schnittlauch",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 64,
+      "name": "Sellerie",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 65,
+      "name": "Spargel",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 66,
+      "name": "Spinat",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 67,
+      "name": "Süßkartoffeln",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 68,
+      "name": "Thymian",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 69,
+      "name": "Tomaten",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 70,
+      "name": "Trauben",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 71,
+      "name": "Wassermelone",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 72,
+      "name": "Zitrone",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 73,
+      "name": "Zucchini",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 74,
+      "name": "Zwiebeln",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 2,
+      "name": "Äpfel",
+      "category": "Obst & Gemüse",
+      "selfCreated": false
+    },
+    {
+      "id": 289,
+      "name": "Binden",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 290,
+      "name": "Bodylotion",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 291,
+      "name": "Deo",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 292,
+      "name": "Duschgel",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 293,
+      "name": "Feuchttücher",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 294,
+      "name": "Gesichtscreme",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 295,
+      "name": "Haargel",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 296,
+      "name": "Haarspray",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 297,
+      "name": "Haarspülung",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 298,
+      "name": "Handcreme",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 299,
+      "name": "Insektenschutzmittel",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 300,
+      "name": "Kondome",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 301,
+      "name": "Kosmetiktücher",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 302,
+      "name": "Linsenmittel",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 303,
+      "name": "Lippenpflege",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 304,
+      "name": "Makeup Entferner",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 305,
+      "name": "Mundspülung",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 306,
+      "name": "Nagellack",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 307,
+      "name": "Nagellackentferner",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 308,
+      "name": "Pflaster",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 309,
+      "name": "Rasierer",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 310,
+      "name": "Rasierschaum",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 311,
+      "name": "Seife",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 312,
+      "name": "Shampoo",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 313,
+      "name": "Sonnencreme",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 314,
+      "name": "Tampons",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 315,
+      "name": "Taschentücher",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 316,
+      "name": "Toilettenpapier",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 317,
+      "name": "Wattepads",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 318,
+      "name": "Wattestäbchen",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 319,
+      "name": "Zahnbürsten",
+      "category": "Pflege & Gesundheit",
+      "selfCreated": false
+    },
+    {
+      "id": 92,
+      "name": "Brezeln",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 93,
+      "name": "Chips",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 94,
+      "name": "Erdnüsse",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 95,
+      "name": "Gelee",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 96,
+      "name": "Getreideriegel",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 97,
+      "name": "Honig",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 99,
+      "name": "Kaugummi",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 100,
+      "name": "Kekse",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 101,
+      "name": "Kuchen",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 102,
+      "name": "Marmelade",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 103,
+      "name": "Nougatcreme",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 105,
+      "name": "Plätzchen",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 106,
+      "name": "Pop Corn",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 104,
+      "name": "Pudding",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 107,
+      "name": "Salzstangen",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 108,
+      "name": "Schokolade",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 109,
+      "name": "Snacks",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 110,
+      "name": "Süßigkeiten",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 111,
+      "name": "Torte",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 112,
+      "name": "Tortilla Chips",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 113,
+      "name": "Vanille Sauce",
+      "category": "Süßwaren, Snacks",
+      "selfCreated": false
+    },
+    {
+      "id": 226,
+      "name": "Baquette",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 227,
+      "name": "Chicken Wings",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 238,
+      "name": "Chinesisches Essen",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 228,
+      "name": "Eis",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 229,
+      "name": "Fischstäbchen",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 230,
+      "name": "Gemüse gefroren",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 231,
+      "name": "Indisches Essen",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 235,
+      "name": "Kroketten",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 232,
+      "name": "Lasagne",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 233,
+      "name": "Pizza",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 234,
+      "name": "Pommes Frites",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 236,
+      "name": "Suppe",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 237,
+      "name": "Thai Essen",
+      "category": "Tiefkühlprodukte",
+      "selfCreated": false
+    },
+    {
+      "id": 321,
+      "name": "Fischfutter",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 322,
+      "name": "Hundefutter",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 323,
+      "name": "Hundesnack",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 324,
+      "name": "Katzenfutter",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 325,
+      "name": "Katzensnack",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 326,
+      "name": "Katzenstreu",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    },
+    {
+      "id": 327,
+      "name": "Vogelfutter",
+      "category": "Tierbedarf",
+      "selfCreated": false
+    }
+  ],
+  "names": [
+    "Bier",
+    "Champagner",
+    "Gin",
+    "Rotwein",
+    "Rum",
+    "Schnaps",
+    "Sekt",
+    "Weißwein",
+    "Whiskey",
+    "Wodka",
+    "Baguette",
+    "Brot",
+    "Brötchen",
+    "Croissant",
+    "Hefezopf",
+    "Knäckebrot",
+    "Muffins",
+    "Toast",
+    "Waffeln",
+    "Aufschnitt",
+    "Bratwurst",
+    "Fisch",
+    "Fleisch",
+    "Frankfurter",
+    "Garnelen",
+    "Hackfleisch",
+    "Hähnchen",
+    "Hähnchenbrust",
+    "Kalbfleisch",
+    "Kassler",
+    "Lachs",
+    "Lamm",
+    "Muscheln",
+    "Rindergeschnetzeltes",
+    "Rindfleisch",
+    "Rohschinken",
+    "Salami",
+    "Sardellen",
+    "Schinken",
+    "Schnitzel",
+    "Schweinefleisch",
+    "Speck",
+    "Steak",
+    "Thunfisch",
+    "Wurst",
+    "Blauschimmelkäse",
+    "Burrata",
+    "Butter",
+    "Creme fraiche",
+    "Eier",
+    "Feta",
+    "Fonduekäse",
+    "Frischkäse",
+    "Gorgonzola",
+    "Hüttenkäse",
+    "Joghurt",
+    "Kräuterbutter",
+    "Käse",
+    "Margarine",
+    "Mascarpone",
+    "Milch",
+    "Mozzarella",
+    "Parmesan",
+    "Quark",
+    "Raclettekäse",
+    "Reibekäse",
+    "Ricotta",
+    "Sahne",
+    "Sauerrahm",
+    "Schmand",
+    "Sojamilch",
+    "Corn Flakes",
+    "Haferflocken",
+    "Müsli",
+    "Apfelsaft",
+    "Cola",
+    "Cola Light",
+    "Eistee",
+    "Energy Drink",
+    "Getränke",
+    "Limonade",
+    "Mineralwasser",
+    "Orangensaft",
+    "Sirup",
+    "Smoothie",
+    "Sportgetränk",
+    "Tonic",
+    "Wasser",
+    "Alufolie",
+    "Babynahrung",
+    "Backpapier",
+    "Badreiniger",
+    "Batterien",
+    "Blumen",
+    "Frischhaltefolie",
+    "Geschenkpapier",
+    "Geschirrsalz",
+    "Geschirrtabs",
+    "Glasreiniger",
+    "Glühbirne",
+    "Kerzen",
+    "Klarspüler",
+    "Küchenrolle",
+    "Müllsäcke",
+    "Putzmittel",
+    "Schwamm",
+    "Servietten",
+    "Spülmittel",
+    "Streichhölzer",
+    "Strohhalme",
+    "Toilettenreiniger",
+    "Waschmittel",
+    "Weichspüler",
+    "Zahnseide",
+    "Zahnstocher",
+    "Kaffee",
+    "Kaffeebohnen",
+    "Kaffeepads",
+    "Kakao",
+    "Tee",
+    "Ahornsirup",
+    "Backpulver",
+    "Balsamico",
+    "Basmatireis",
+    "BBQ Sauce",
+    "Bratensauce",
+    "Brühe",
+    "Couscous",
+    "Dip",
+    "Essig",
+    "Gnocchi",
+    "Gries",
+    "Haselnüsse",
+    "Hefe",
+    "Kartoffelpüree",
+    "Ketchup",
+    "Kichererbsen",
+    "Linsen",
+    "Mandelmus",
+    "Mandeln",
+    "Marzipan",
+    "Mehl",
+    "Nudeln",
+    "Nüsse",
+    "Olivenöl",
+    "Oregano",
+    "Paprikapulver",
+    "Penne",
+    "Pfeffer",
+    "Pfefferkörner",
+    "Pinienkerne",
+    "Preiselbeer Sauce",
+    "Puderzucker",
+    "Reis",
+    "Risottoreis",
+    "Rosmarin",
+    "Salatsauce",
+    "Salz",
+    "Semmelbrösel",
+    "Senf",
+    "Sojasauce",
+    "Spaghetti",
+    "Speisestärke",
+    "Tofu",
+    "Tomatenmark",
+    "Vanillezucker",
+    "Walnüsse",
+    "Zimt",
+    "Zucker",
+    "Öl",
+    "Apfelmus",
+    "Bohnen",
+    "Dosentomaten",
+    "Essiggurken",
+    "Kokosmilch",
+    "Majonaise",
+    "Pasta Sauce",
+    "Sauerkraut",
+    "Silberzwiebeln",
+    "Tomatensauce",
+    "Ananas",
+    "Aprikosen",
+    "Artischocken",
+    "Aubergine",
+    "Avocado",
+    "Bananen",
+    "Basilikum",
+    "Beeren",
+    "Birnen",
+    "Blumenkohl",
+    "Brokkoli",
+    "Brombeeren",
+    "Champignons",
+    "Cherrytomaten",
+    "Chili",
+    "Datteln",
+    "Erbsen",
+    "Erdbeeren",
+    "Feigen",
+    "Fenchel",
+    "Frühlingszwiebeln",
+    "Grapefruit",
+    "Grüne Bohnen",
+    "Gurke",
+    "Heidelbeeren",
+    "Himbeeren",
+    "Ingwer",
+    "Kaki",
+    "Karotten",
+    "Kartoffeln",
+    "Kirschen",
+    "Kiwi",
+    "Kohl",
+    "Kohlrabi",
+    "Koriander",
+    "Kräuter",
+    "Kürbis",
+    "Lattich",
+    "Lauch",
+    "Limette",
+    "Mais",
+    "Mandarinen",
+    "Mango",
+    "Melone",
+    "Nektarine",
+    "Obst",
+    "Oliven",
+    "Orange",
+    "Paprika",
+    "Passionsfrucht",
+    "Petersilie",
+    "Pfefferminze",
+    "Pfirsich",
+    "Pflaumen",
+    "Pilze",
+    "Radieschen",
+    "Rhabarber",
+    "Rote Bete",
+    "Rucola",
+    "Salat",
+    "Salbei",
+    "Schnittlauch",
+    "Sellerie",
+    "Spargel",
+    "Spinat",
+    "Süßkartoffeln",
+    "Thymian",
+    "Tomaten",
+    "Trauben",
+    "Wassermelone",
+    "Zitrone",
+    "Zucchini",
+    "Zwiebeln",
+    "Äpfel",
+    "Binden",
+    "Bodylotion",
+    "Deo",
+    "Duschgel",
+    "Feuchttücher",
+    "Gesichtscreme",
+    "Haargel",
+    "Haarspray",
+    "Haarspülung",
+    "Handcreme",
+    "Insektenschutzmittel",
+    "Kondome",
+    "Kosmetiktücher",
+    "Linsenmittel",
+    "Lippenpflege",
+    "Makeup Entferner",
+    "Mundspülung",
+    "Nagellack",
+    "Nagellackentferner",
+    "Pflaster",
+    "Rasierer",
+    "Rasierschaum",
+    "Seife",
+    "Shampoo",
+    "Sonnencreme",
+    "Tampons",
+    "Taschentücher",
+    "Toilettenpapier",
+    "Wattepads",
+    "Wattestäbchen",
+    "Zahnbürsten",
+    "Brezeln",
+    "Chips",
+    "Erdnüsse",
+    "Gelee",
+    "Getreideriegel",
+    "Honig",
+    "Kaugummi",
+    "Kekse",
+    "Kuchen",
+    "Marmelade",
+    "Nougatcreme",
+    "Plätzchen",
+    "Pop Corn",
+    "Pudding",
+    "Salzstangen",
+    "Schokolade",
+    "Snacks",
+    "Süßigkeiten",
+    "Torte",
+    "Tortilla Chips",
+    "Vanille Sauce",
+    "Baquette",
+    "Chicken Wings",
+    "Chinesisches Essen",
+    "Eis",
+    "Fischstäbchen",
+    "Gemüse gefroren",
+    "Indisches Essen",
+    "Kroketten",
+    "Lasagne",
+    "Pizza",
+    "Pommes Frites",
+    "Suppe",
+    "Thai Essen",
+    "Fischfutter",
+    "Hundefutter",
+    "Hundesnack",
+    "Katzenfutter",
+    "Katzensnack",
+    "Katzenstreu",
+    "Vogelfutter"
+  ],
+  "by_category": {
+    "Alkohol": [
+      "Bier",
+      "Champagner",
+      "Gin",
+      "Rotwein",
+      "Rum",
+      "Schnaps",
+      "Sekt",
+      "Weißwein",
+      "Whiskey",
+      "Wodka"
+    ],
+    "Backwaren": [
+      "Baguette",
+      "Brot",
+      "Brötchen",
+      "Croissant",
+      "Hefezopf",
+      "Knäckebrot",
+      "Muffins",
+      "Toast",
+      "Waffeln"
+    ],
+    "Fleisch, Fisch": [
+      "Aufschnitt",
+      "Bratwurst",
+      "Fisch",
+      "Fleisch",
+      "Frankfurter",
+      "Garnelen",
+      "Hackfleisch",
+      "Hähnchen",
+      "Hähnchenbrust",
+      "Kalbfleisch",
+      "Kassler",
+      "Lachs",
+      "Lamm",
+      "Muscheln",
+      "Rindergeschnetzeltes",
+      "Rindfleisch",
+      "Rohschinken",
+      "Salami",
+      "Sardellen",
+      "Schinken",
+      "Schnitzel",
+      "Schweinefleisch",
+      "Speck",
+      "Steak",
+      "Thunfisch",
+      "Wurst"
+    ],
+    "Frische, Milchprodukte": [
+      "Blauschimmelkäse",
+      "Burrata",
+      "Butter",
+      "Creme fraiche",
+      "Eier",
+      "Feta",
+      "Fonduekäse",
+      "Frischkäse",
+      "Gorgonzola",
+      "Hüttenkäse",
+      "Joghurt",
+      "Kräuterbutter",
+      "Käse",
+      "Margarine",
+      "Mascarpone",
+      "Milch",
+      "Mozzarella",
+      "Parmesan",
+      "Quark",
+      "Raclettekäse",
+      "Reibekäse",
+      "Ricotta",
+      "Sahne",
+      "Sauerrahm",
+      "Schmand",
+      "Sojamilch"
+    ],
+    "Getreideprodukte": [
+      "Corn Flakes",
+      "Haferflocken",
+      "Müsli"
+    ],
+    "Getränke": [
+      "Apfelsaft",
+      "Cola",
+      "Cola Light",
+      "Eistee",
+      "Energy Drink",
+      "Getränke",
+      "Limonade",
+      "Mineralwasser",
+      "Orangensaft",
+      "Sirup",
+      "Smoothie",
+      "Sportgetränk",
+      "Tonic",
+      "Wasser"
+    ],
+    "Haushalt": [
+      "Alufolie",
+      "Babynahrung",
+      "Backpapier",
+      "Badreiniger",
+      "Batterien",
+      "Blumen",
+      "Frischhaltefolie",
+      "Geschenkpapier",
+      "Geschirrsalz",
+      "Geschirrtabs",
+      "Glasreiniger",
+      "Glühbirne",
+      "Kerzen",
+      "Klarspüler",
+      "Küchenrolle",
+      "Müllsäcke",
+      "Putzmittel",
+      "Schwamm",
+      "Servietten",
+      "Spülmittel",
+      "Streichhölzer",
+      "Strohhalme",
+      "Toilettenreiniger",
+      "Waschmittel",
+      "Weichspüler",
+      "Zahnseide",
+      "Zahnstocher"
+    ],
+    "Kaffee, Tee & Kakao": [
+      "Kaffee",
+      "Kaffeebohnen",
+      "Kaffeepads",
+      "Kakao",
+      "Tee"
+    ],
+    "Koch-, Backzutaten": [
+      "Ahornsirup",
+      "Backpulver",
+      "Balsamico",
+      "Basmatireis",
+      "BBQ Sauce",
+      "Bratensauce",
+      "Brühe",
+      "Couscous",
+      "Dip",
+      "Essig",
+      "Gnocchi",
+      "Gries",
+      "Haselnüsse",
+      "Hefe",
+      "Kartoffelpüree",
+      "Ketchup",
+      "Kichererbsen",
+      "Linsen",
+      "Mandelmus",
+      "Mandeln",
+      "Marzipan",
+      "Mehl",
+      "Nudeln",
+      "Nüsse",
+      "Olivenöl",
+      "Oregano",
+      "Paprikapulver",
+      "Penne",
+      "Pfeffer",
+      "Pfefferkörner",
+      "Pinienkerne",
+      "Preiselbeer Sauce",
+      "Puderzucker",
+      "Reis",
+      "Risottoreis",
+      "Rosmarin",
+      "Salatsauce",
+      "Salz",
+      "Semmelbrösel",
+      "Senf",
+      "Sojasauce",
+      "Spaghetti",
+      "Speisestärke",
+      "Tofu",
+      "Tomatenmark",
+      "Vanillezucker",
+      "Walnüsse",
+      "Zimt",
+      "Zucker",
+      "Öl"
+    ],
+    "Konserven": [
+      "Apfelmus",
+      "Bohnen",
+      "Dosentomaten",
+      "Essiggurken",
+      "Kokosmilch",
+      "Majonaise",
+      "Pasta Sauce",
+      "Sauerkraut",
+      "Silberzwiebeln",
+      "Tomatensauce"
+    ],
+    "Obst & Gemüse": [
+      "Ananas",
+      "Aprikosen",
+      "Artischocken",
+      "Aubergine",
+      "Avocado",
+      "Bananen",
+      "Basilikum",
+      "Beeren",
+      "Birnen",
+      "Blumenkohl",
+      "Brokkoli",
+      "Brombeeren",
+      "Champignons",
+      "Cherrytomaten",
+      "Chili",
+      "Datteln",
+      "Erbsen",
+      "Erdbeeren",
+      "Feigen",
+      "Fenchel",
+      "Frühlingszwiebeln",
+      "Grapefruit",
+      "Grüne Bohnen",
+      "Gurke",
+      "Heidelbeeren",
+      "Himbeeren",
+      "Ingwer",
+      "Kaki",
+      "Karotten",
+      "Kartoffeln",
+      "Kirschen",
+      "Kiwi",
+      "Kohl",
+      "Kohlrabi",
+      "Koriander",
+      "Kräuter",
+      "Kürbis",
+      "Lattich",
+      "Lauch",
+      "Limette",
+      "Mais",
+      "Mandarinen",
+      "Mango",
+      "Melone",
+      "Nektarine",
+      "Obst",
+      "Oliven",
+      "Orange",
+      "Paprika",
+      "Passionsfrucht",
+      "Petersilie",
+      "Pfefferminze",
+      "Pfirsich",
+      "Pflaumen",
+      "Pilze",
+      "Radieschen",
+      "Rhabarber",
+      "Rote Bete",
+      "Rucola",
+      "Salat",
+      "Salbei",
+      "Schnittlauch",
+      "Sellerie",
+      "Spargel",
+      "Spinat",
+      "Süßkartoffeln",
+      "Thymian",
+      "Tomaten",
+      "Trauben",
+      "Wassermelone",
+      "Zitrone",
+      "Zucchini",
+      "Zwiebeln",
+      "Äpfel"
+    ],
+    "Pflege & Gesundheit": [
+      "Binden",
+      "Bodylotion",
+      "Deo",
+      "Duschgel",
+      "Feuchttücher",
+      "Gesichtscreme",
+      "Haargel",
+      "Haarspray",
+      "Haarspülung",
+      "Handcreme",
+      "Insektenschutzmittel",
+      "Kondome",
+      "Kosmetiktücher",
+      "Linsenmittel",
+      "Lippenpflege",
+      "Makeup Entferner",
+      "Mundspülung",
+      "Nagellack",
+      "Nagellackentferner",
+      "Pflaster",
+      "Rasierer",
+      "Rasierschaum",
+      "Seife",
+      "Shampoo",
+      "Sonnencreme",
+      "Tampons",
+      "Taschentücher",
+      "Toilettenpapier",
+      "Wattepads",
+      "Wattestäbchen",
+      "Zahnbürsten"
+    ],
+    "Süßwaren, Snacks": [
+      "Brezeln",
+      "Chips",
+      "Erdnüsse",
+      "Gelee",
+      "Getreideriegel",
+      "Honig",
+      "Kaugummi",
+      "Kekse",
+      "Kuchen",
+      "Marmelade",
+      "Nougatcreme",
+      "Plätzchen",
+      "Pop Corn",
+      "Pudding",
+      "Salzstangen",
+      "Schokolade",
+      "Snacks",
+      "Süßigkeiten",
+      "Torte",
+      "Tortilla Chips",
+      "Vanille Sauce"
+    ],
+    "Tiefkühlprodukte": [
+      "Baquette",
+      "Chicken Wings",
+      "Chinesisches Essen",
+      "Eis",
+      "Fischstäbchen",
+      "Gemüse gefroren",
+      "Indisches Essen",
+      "Kroketten",
+      "Lasagne",
+      "Pizza",
+      "Pommes Frites",
+      "Suppe",
+      "Thai Essen"
+    ],
+    "Tierbedarf": [
+      "Fischfutter",
+      "Hundefutter",
+      "Hundesnack",
+      "Katzenfutter",
+      "Katzensnack",
+      "Katzenstreu",
+      "Vogelfutter"
+    ]
+  }
+}

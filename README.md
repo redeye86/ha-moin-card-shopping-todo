@@ -24,6 +24,18 @@ Konto-Einrichtung, HA-Integration, Erkenntnisse) liegen in [`docs/`](docs/README
   (wie in der App selbst).
 - Service `moincard.add_item` für Automationen (Name, Menge, EAN, Kategorie).
 
+## Vokabular-Export (CSV/JSON)
+
+Die Artikel-Vorschläge (Standardliste + persönliche Einträge, 326 Namen /
+15 Kategorien) liegen unter [`data/`](data/) (siehe
+[docs/vokabular-export.md](docs/vokabular-export.md)):
+
+- `data/vocabulary.csv` – `id,name,category,selfCreated`
+- `data/vocabulary.json` – strukturiert (`names`, `by_category`, ...)
+- `data/vocabulary_names.txt` – nur Namen, einer pro Zeile
+
+Neu ziehen: `python3 moin_list.py vocab --out data`
+
 ## Installation (HACS / manuell)
 
 1. Ordner `custom_components/moincard` nach `<config>/custom_components/`

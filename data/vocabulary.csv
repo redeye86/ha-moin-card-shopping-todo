@@ -1,0 +1,327 @@
+id,name,category,selfCreated
+240,Bier,Alkohol,false
+241,Champagner,Alkohol,false
+247,Gin,Alkohol,false
+251,Rotwein,Alkohol,false
+252,Rum,Alkohol,false
+253,Schnaps,Alkohol,false
+254,Sekt,Alkohol,false
+260,Weißwein,Alkohol,false
+261,Whiskey,Alkohol,false
+262,Wodka,Alkohol,false
+75,Baguette,Backwaren,false
+76,Brot,Backwaren,false
+77,Brötchen,Backwaren,false
+78,Croissant,Backwaren,false
+79,Hefezopf,Backwaren,false
+80,Knäckebrot,Backwaren,false
+81,Muffins,Backwaren,false
+82,Toast,Backwaren,false
+83,Waffeln,Backwaren,false
+114,Aufschnitt,"Fleisch, Fisch",false
+115,Bratwurst,"Fleisch, Fisch",false
+116,Fisch,"Fleisch, Fisch",false
+117,Fleisch,"Fleisch, Fisch",false
+118,Frankfurter,"Fleisch, Fisch",false
+119,Garnelen,"Fleisch, Fisch",false
+120,Hackfleisch,"Fleisch, Fisch",false
+121,Hähnchen,"Fleisch, Fisch",false
+122,Hähnchenbrust,"Fleisch, Fisch",false
+123,Kalbfleisch,"Fleisch, Fisch",false
+124,Kassler,"Fleisch, Fisch",false
+125,Lachs,"Fleisch, Fisch",false
+126,Lamm,"Fleisch, Fisch",false
+127,Muscheln,"Fleisch, Fisch",false
+128,Rindergeschnetzeltes,"Fleisch, Fisch",false
+129,Rindfleisch,"Fleisch, Fisch",false
+130,Rohschinken,"Fleisch, Fisch",false
+131,Salami,"Fleisch, Fisch",false
+132,Sardellen,"Fleisch, Fisch",false
+133,Schinken,"Fleisch, Fisch",false
+134,Schnitzel,"Fleisch, Fisch",false
+135,Schweinefleisch,"Fleisch, Fisch",false
+136,Speck,"Fleisch, Fisch",false
+137,Steak,"Fleisch, Fisch",false
+138,Thunfisch,"Fleisch, Fisch",false
+139,Wurst,"Fleisch, Fisch",false
+140,Blauschimmelkäse,"Frische, Milchprodukte",false
+141,Burrata,"Frische, Milchprodukte",false
+142,Butter,"Frische, Milchprodukte",false
+143,Creme fraiche,"Frische, Milchprodukte",false
+144,Eier,"Frische, Milchprodukte",false
+145,Feta,"Frische, Milchprodukte",false
+146,Fonduekäse,"Frische, Milchprodukte",false
+147,Frischkäse,"Frische, Milchprodukte",false
+148,Gorgonzola,"Frische, Milchprodukte",false
+149,Hüttenkäse,"Frische, Milchprodukte",false
+150,Joghurt,"Frische, Milchprodukte",false
+152,Kräuterbutter,"Frische, Milchprodukte",false
+151,Käse,"Frische, Milchprodukte",false
+153,Margarine,"Frische, Milchprodukte",false
+154,Mascarpone,"Frische, Milchprodukte",false
+155,Milch,"Frische, Milchprodukte",false
+156,Mozzarella,"Frische, Milchprodukte",false
+157,Parmesan,"Frische, Milchprodukte",false
+158,Quark,"Frische, Milchprodukte",false
+159,Raclettekäse,"Frische, Milchprodukte",false
+160,Reibekäse,"Frische, Milchprodukte",false
+161,Ricotta,"Frische, Milchprodukte",false
+162,Sahne,"Frische, Milchprodukte",false
+163,Sauerrahm,"Frische, Milchprodukte",false
+164,Schmand,"Frische, Milchprodukte",false
+165,Sojamilch,"Frische, Milchprodukte",false
+84,Corn Flakes,Getreideprodukte,false
+85,Haferflocken,Getreideprodukte,false
+86,Müsli,Getreideprodukte,false
+239,Apfelsaft,Getränke,false
+242,Cola,Getränke,false
+243,Cola Light,Getränke,false
+244,Eistee,Getränke,false
+245,Energy Drink,Getränke,false
+246,Getränke,Getränke,false
+248,Limonade,Getränke,false
+249,Mineralwasser,Getränke,false
+250,Orangensaft,Getränke,false
+255,Sirup,Getränke,false
+256,Smoothie,Getränke,false
+257,Sportgetränk,Getränke,false
+258,Tonic,Getränke,false
+259,Wasser,Getränke,false
+263,Alufolie,Haushalt,false
+264,Babynahrung,Haushalt,false
+265,Backpapier,Haushalt,false
+266,Badreiniger,Haushalt,false
+267,Batterien,Haushalt,false
+268,Blumen,Haushalt,false
+269,Frischhaltefolie,Haushalt,false
+270,Geschenkpapier,Haushalt,false
+271,Geschirrsalz,Haushalt,false
+272,Geschirrtabs,Haushalt,false
+273,Glasreiniger,Haushalt,false
+274,Glühbirne,Haushalt,false
+275,Kerzen,Haushalt,false
+276,Klarspüler,Haushalt,false
+277,Küchenrolle,Haushalt,false
+278,Müllsäcke,Haushalt,false
+279,Putzmittel,Haushalt,false
+280,Schwamm,Haushalt,false
+281,Servietten,Haushalt,false
+282,Spülmittel,Haushalt,false
+283,Streichhölzer,Haushalt,false
+284,Strohhalme,Haushalt,false
+285,Toilettenreiniger,Haushalt,false
+286,Waschmittel,Haushalt,false
+287,Weichspüler,Haushalt,false
+320,Zahnseide,Haushalt,false
+288,Zahnstocher,Haushalt,false
+87,Kaffee,"Kaffee, Tee & Kakao",false
+88,Kaffeebohnen,"Kaffee, Tee & Kakao",false
+89,Kaffeepads,"Kaffee, Tee & Kakao",false
+90,Kakao,"Kaffee, Tee & Kakao",false
+91,Tee,"Kaffee, Tee & Kakao",false
+178,Ahornsirup,"Koch-, Backzutaten",false
+179,Backpulver,"Koch-, Backzutaten",false
+180,Balsamico,"Koch-, Backzutaten",false
+166,Basmatireis,"Koch-, Backzutaten",false
+181,BBQ Sauce,"Koch-, Backzutaten",false
+182,Bratensauce,"Koch-, Backzutaten",false
+183,Brühe,"Koch-, Backzutaten",false
+167,Couscous,"Koch-, Backzutaten",false
+184,Dip,"Koch-, Backzutaten",false
+185,Essig,"Koch-, Backzutaten",false
+168,Gnocchi,"Koch-, Backzutaten",false
+169,Gries,"Koch-, Backzutaten",false
+186,Haselnüsse,"Koch-, Backzutaten",false
+187,Hefe,"Koch-, Backzutaten",false
+188,Kartoffelpüree,"Koch-, Backzutaten",false
+189,Ketchup,"Koch-, Backzutaten",false
+170,Kichererbsen,"Koch-, Backzutaten",false
+190,Linsen,"Koch-, Backzutaten",false
+191,Mandelmus,"Koch-, Backzutaten",false
+192,Mandeln,"Koch-, Backzutaten",false
+193,Marzipan,"Koch-, Backzutaten",false
+171,Mehl,"Koch-, Backzutaten",false
+172,Nudeln,"Koch-, Backzutaten",false
+194,Nüsse,"Koch-, Backzutaten",false
+196,Olivenöl,"Koch-, Backzutaten",false
+197,Oregano,"Koch-, Backzutaten",false
+198,Paprikapulver,"Koch-, Backzutaten",false
+173,Penne,"Koch-, Backzutaten",false
+199,Pfeffer,"Koch-, Backzutaten",false
+200,Pfefferkörner,"Koch-, Backzutaten",false
+201,Pinienkerne,"Koch-, Backzutaten",false
+202,Preiselbeer Sauce,"Koch-, Backzutaten",false
+203,Puderzucker,"Koch-, Backzutaten",false
+174,Reis,"Koch-, Backzutaten",false
+175,Risottoreis,"Koch-, Backzutaten",false
+204,Rosmarin,"Koch-, Backzutaten",false
+205,Salatsauce,"Koch-, Backzutaten",false
+206,Salz,"Koch-, Backzutaten",false
+207,Semmelbrösel,"Koch-, Backzutaten",false
+208,Senf,"Koch-, Backzutaten",false
+209,Sojasauce,"Koch-, Backzutaten",false
+176,Spaghetti,"Koch-, Backzutaten",false
+210,Speisestärke,"Koch-, Backzutaten",false
+177,Tofu,"Koch-, Backzutaten",false
+211,Tomatenmark,"Koch-, Backzutaten",false
+212,Vanillezucker,"Koch-, Backzutaten",false
+213,Walnüsse,"Koch-, Backzutaten",false
+214,Zimt,"Koch-, Backzutaten",false
+215,Zucker,"Koch-, Backzutaten",false
+195,Öl,"Koch-, Backzutaten",false
+220,Apfelmus,Konserven,false
+221,Bohnen,Konserven,false
+222,Dosentomaten,Konserven,false
+216,Essiggurken,Konserven,false
+223,Kokosmilch,Konserven,false
+225,Majonaise,Konserven,false
+218,Pasta Sauce,Konserven,false
+219,Sauerkraut,Konserven,false
+224,Silberzwiebeln,Konserven,false
+217,Tomatensauce,Konserven,false
+1,Ananas,Obst & Gemüse,false
+3,Aprikosen,Obst & Gemüse,false
+4,Artischocken,Obst & Gemüse,false
+5,Aubergine,Obst & Gemüse,false
+6,Avocado,Obst & Gemüse,false
+7,Bananen,Obst & Gemüse,false
+8,Basilikum,Obst & Gemüse,false
+9,Beeren,Obst & Gemüse,false
+10,Birnen,Obst & Gemüse,false
+11,Blumenkohl,Obst & Gemüse,false
+12,Brokkoli,Obst & Gemüse,false
+13,Brombeeren,Obst & Gemüse,false
+14,Champignons,Obst & Gemüse,false
+15,Cherrytomaten,Obst & Gemüse,false
+16,Chili,Obst & Gemüse,false
+17,Datteln,Obst & Gemüse,false
+18,Erbsen,Obst & Gemüse,false
+19,Erdbeeren,Obst & Gemüse,false
+20,Feigen,Obst & Gemüse,false
+21,Fenchel,Obst & Gemüse,false
+22,Frühlingszwiebeln,Obst & Gemüse,false
+23,Grapefruit,Obst & Gemüse,false
+24,Grüne Bohnen,Obst & Gemüse,false
+25,Gurke,Obst & Gemüse,false
+26,Heidelbeeren,Obst & Gemüse,false
+27,Himbeeren,Obst & Gemüse,false
+28,Ingwer,Obst & Gemüse,false
+29,Kaki,Obst & Gemüse,false
+30,Karotten,Obst & Gemüse,false
+31,Kartoffeln,Obst & Gemüse,false
+32,Kirschen,Obst & Gemüse,false
+33,Kiwi,Obst & Gemüse,false
+34,Kohl,Obst & Gemüse,false
+35,Kohlrabi,Obst & Gemüse,false
+36,Koriander,Obst & Gemüse,false
+37,Kräuter,Obst & Gemüse,false
+38,Kürbis,Obst & Gemüse,false
+39,Lattich,Obst & Gemüse,false
+40,Lauch,Obst & Gemüse,false
+41,Limette,Obst & Gemüse,false
+42,Mais,Obst & Gemüse,false
+43,Mandarinen,Obst & Gemüse,false
+44,Mango,Obst & Gemüse,false
+45,Melone,Obst & Gemüse,false
+46,Nektarine,Obst & Gemüse,false
+47,Obst,Obst & Gemüse,false
+48,Oliven,Obst & Gemüse,false
+49,Orange,Obst & Gemüse,false
+50,Paprika,Obst & Gemüse,false
+51,Passionsfrucht,Obst & Gemüse,false
+52,Petersilie,Obst & Gemüse,false
+53,Pfefferminze,Obst & Gemüse,false
+54,Pfirsich,Obst & Gemüse,false
+55,Pflaumen,Obst & Gemüse,false
+56,Pilze,Obst & Gemüse,false
+57,Radieschen,Obst & Gemüse,false
+58,Rhabarber,Obst & Gemüse,false
+59,Rote Bete,Obst & Gemüse,false
+60,Rucola,Obst & Gemüse,false
+61,Salat,Obst & Gemüse,false
+62,Salbei,Obst & Gemüse,false
+63,Schnittlauch,Obst & Gemüse,false
+64,Sellerie,Obst & Gemüse,false
+65,Spargel,Obst & Gemüse,false
+66,Spinat,Obst & Gemüse,false
+67,Süßkartoffeln,Obst & Gemüse,false
+68,Thymian,Obst & Gemüse,false
+69,Tomaten,Obst & Gemüse,false
+70,Trauben,Obst & Gemüse,false
+71,Wassermelone,Obst & Gemüse,false
+72,Zitrone,Obst & Gemüse,false
+73,Zucchini,Obst & Gemüse,false
+74,Zwiebeln,Obst & Gemüse,false
+2,Äpfel,Obst & Gemüse,false
+289,Binden,Pflege & Gesundheit,false
+290,Bodylotion,Pflege & Gesundheit,false
+291,Deo,Pflege & Gesundheit,false
+292,Duschgel,Pflege & Gesundheit,false
+293,Feuchttücher,Pflege & Gesundheit,false
+294,Gesichtscreme,Pflege & Gesundheit,false
+295,Haargel,Pflege & Gesundheit,false
+296,Haarspray,Pflege & Gesundheit,false
+297,Haarspülung,Pflege & Gesundheit,false
+298,Handcreme,Pflege & Gesundheit,false
+299,Insektenschutzmittel,Pflege & Gesundheit,false
+300,Kondome,Pflege & Gesundheit,false
+301,Kosmetiktücher,Pflege & Gesundheit,false
+302,Linsenmittel,Pflege & Gesundheit,false
+303,Lippenpflege,Pflege & Gesundheit,false
+304,Makeup Entferner,Pflege & Gesundheit,false
+305,Mundspülung,Pflege & Gesundheit,false
+306,Nagellack,Pflege & Gesundheit,false
+307,Nagellackentferner,Pflege & Gesundheit,false
+308,Pflaster,Pflege & Gesundheit,false
+309,Rasierer,Pflege & Gesundheit,false
+310,Rasierschaum,Pflege & Gesundheit,false
+311,Seife,Pflege & Gesundheit,false
+312,Shampoo,Pflege & Gesundheit,false
+313,Sonnencreme,Pflege & Gesundheit,false
+314,Tampons,Pflege & Gesundheit,false
+315,Taschentücher,Pflege & Gesundheit,false
+316,Toilettenpapier,Pflege & Gesundheit,false
+317,Wattepads,Pflege & Gesundheit,false
+318,Wattestäbchen,Pflege & Gesundheit,false
+319,Zahnbürsten,Pflege & Gesundheit,false
+92,Brezeln,"Süßwaren, Snacks",false
+93,Chips,"Süßwaren, Snacks",false
+94,Erdnüsse,"Süßwaren, Snacks",false
+95,Gelee,"Süßwaren, Snacks",false
+96,Getreideriegel,"Süßwaren, Snacks",false
+97,Honig,"Süßwaren, Snacks",false
+99,Kaugummi,"Süßwaren, Snacks",false
+100,Kekse,"Süßwaren, Snacks",false
+101,Kuchen,"Süßwaren, Snacks",false
+102,Marmelade,"Süßwaren, Snacks",false
+103,Nougatcreme,"Süßwaren, Snacks",false
+105,Plätzchen,"Süßwaren, Snacks",false
+106,Pop Corn,"Süßwaren, Snacks",false
+104,Pudding,"Süßwaren, Snacks",false
+107,Salzstangen,"Süßwaren, Snacks",false
+108,Schokolade,"Süßwaren, Snacks",false
+109,Snacks,"Süßwaren, Snacks",false
+110,Süßigkeiten,"Süßwaren, Snacks",false
+111,Torte,"Süßwaren, Snacks",false
+112,Tortilla Chips,"Süßwaren, Snacks",false
+113,Vanille Sauce,"Süßwaren, Snacks",false
+226,Baquette,Tiefkühlprodukte,false
+227,Chicken Wings,Tiefkühlprodukte,false
+238,Chinesisches Essen,Tiefkühlprodukte,false
+228,Eis,Tiefkühlprodukte,false
+229,Fischstäbchen,Tiefkühlprodukte,false
+230,Gemüse gefroren,Tiefkühlprodukte,false
+231,Indisches Essen,Tiefkühlprodukte,false
+235,Kroketten,Tiefkühlprodukte,false
+232,Lasagne,Tiefkühlprodukte,false
+233,Pizza,Tiefkühlprodukte,false
+234,Pommes Frites,Tiefkühlprodukte,false
+236,Suppe,Tiefkühlprodukte,false
+237,Thai Essen,Tiefkühlprodukte,false
+321,Fischfutter,Tierbedarf,false
+322,Hundefutter,Tierbedarf,false
+323,Hundesnack,Tierbedarf,false
+324,Katzenfutter,Tierbedarf,false
+325,Katzensnack,Tierbedarf,false
+326,Katzenstreu,Tierbedarf,false
+327,Vogelfutter,Tierbedarf,false
