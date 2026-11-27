@@ -16,6 +16,7 @@ herauskam.
 | [sprachassistent.md](sprachassistent.md) | Vokabular als read-only `todo`-Katalog für Sprach-/LLM-Agenten |
 | [vokabular-export.md](vokabular-export.md) | CSV/JSON/TXT-Export der Artikel-Vorschläge + Nutzung im Sprachagenten |
 | [erkenntnisse.md](erkenntnisse.md) | Kurz-Zusammenfassung, Stolperfallen, Grenzen |
+| [status.md](status.md) | Aktueller Stand + offene Ideen (Übergabe) |
 
 ## Kurzfassung
 
