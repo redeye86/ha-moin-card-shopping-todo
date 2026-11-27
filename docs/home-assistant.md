@@ -17,6 +17,9 @@ __init__.py      Setup + Service moincard.add_item
 
 - **Ein `todo`-Entity pro MoinCard-Liste.** Entity-Name = Listen-Name
   (meist „Einkaufsliste"), `unique_id` = `entry_id + internalId`.
+- **Zusätzlich ein read-only `todo`-Entity „Vokabular"**
+  (`todo.moin_card_vokabular`) als Produktkatalog (Name + Kategorie) für
+  Sprach-/LLM-Agenten – siehe [sprachassistent.md](sprachassistent.md).
 - Poll alle `scan_interval` Sekunden (Default 300) `GET /lists` und je Liste
   `POST /list`.
 - Der Token wird bei `401/403` automatisch neu geholt (ein Retry).

@@ -13,6 +13,7 @@ herauskam.
 | [konto-einrichtung.md](konto-einrichtung.md) | Kunden-Datensatz anlegen (nötig für die Einkaufsliste) |
 | [home-assistant.md](home-assistant.md) | Architektur + Verhalten der HA-Integration |
 | [dashboard-card.md](dashboard-card.md) | Fertige Dashboard-Card, Helper, Scripts & Automationen |
+| [sprachassistent.md](sprachassistent.md) | Vokabular als read-only `todo`-Katalog für Sprach-/LLM-Agenten |
 | [vokabular-export.md](vokabular-export.md) | CSV/JSON/TXT-Export der Artikel-Vorschläge + Nutzung im Sprachagenten |
 | [erkenntnisse.md](erkenntnisse.md) | Kurz-Zusammenfassung, Stolperfallen, Grenzen |
 

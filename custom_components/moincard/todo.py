@@ -90,6 +90,10 @@ async def async_setup_entry(
     coordinator: MoinCardCoordinator = hass.data[DOMAIN][entry.entry_id]
     known: set[str] = set()
 
+    # Read-only list with all known products (standard + personal vocabulary).
+    # A voice/LLM agent can read it and match spoken items against it.
+    async_add_entities([MoinCardVocabularyTodo(coordinator, entry)])
+
     @callback
     def _add_new_lists() -> None:
         entities = []
@@ -282,3 +286,57 @@ class MoinCardTodoList(CoordinatorEntity[MoinCardCoordinator], TodoListEntity):
             raise HomeAssistantError("Einkaufsliste ist nicht verfügbar.")
         for uid in uids:
             await self._guard(self.coordinator.api.async_delete_item(lst, int(uid)))
+
+
+class MoinCardVocabularyTodo(CoordinatorEntity[MoinCardCoordinator], TodoListEntity):
+    """Read-only to-do list exposing all known MoinCard products.
+
+    Intended as a catalog for voice/LLM agents: read the items (name +
+    category) and match a spoken item against them.  It cannot be modified
+    from Home Assistant.
+    """
+
+    _attr_has_entity_name = True
+    _attr_icon = "mdi:format-list-bulleted-square"
+    _attr_supported_features = TodoListEntityFeature(0)
+
+    def __init__(
+        self,
+        coordinator: MoinCardCoordinator,
+        entry: ConfigEntry,
+    ) -> None:
+        super().__init__(coordinator)
+        self._attr_unique_id = f"{entry.entry_id}_vocabulary"
+        self._attr_name = "Vokabular"
+        self._attr_device_info = {
+            "identifiers": {(DOMAIN, entry.entry_id)},
+            "name": "MOIN CARD",
+            "manufacturer": MANUFACTURER,
+        }
+
+    @property
+    def todo_items(self) -> list[TodoItem]:
+        result = []
+        for index, entry in enumerate(self.coordinator.vocabulary.entries):
+            category = entry.get("category")
+            self_created = " (eigener Eintrag)" if entry.get("selfCreated") else ""
+            result.append(
+                TodoItem(
+                    uid=str(entry.get("id") or f"vocab-{index}"),
+                    summary=entry["name"],
+                    status=TodoItemStatus.NEEDS_ACTION,
+                    description=(
+                        f"Kategorie: {category}{self_created}" if category else None
+                    ),
+                )
+            )
+        return result
+
+    async def async_create_todo_item(self, item: TodoItem) -> None:
+        raise HomeAssistantError("Das Vokabular ist schreibgeschützt.")
+
+    async def async_update_todo_item(self, item: TodoItem) -> None:
+        raise HomeAssistantError("Das Vokabular ist schreibgeschützt.")
+
+    async def async_delete_todo_items(self, uids: list[str]) -> None:
+        raise HomeAssistantError("Das Vokabular ist schreibgeschützt.")

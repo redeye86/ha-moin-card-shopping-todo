@@ -32,17 +32,36 @@ class Vocabulary:
 
     def __init__(self) -> None:
         self._by_name: dict[str, str] = {}
+        self._entries: list[dict] = []
 
     @property
     def size(self) -> int:
-        return len(self._by_name)
+        return len(self._entries)
+
+    @property
+    def entries(self) -> list[dict]:
+        """All vocabulary entries as {id, name, category, selfCreated}."""
+        return self._entries
 
     def load(self, entries: list[dict]) -> None:
+        self._by_name = {}
+        loaded: list[dict] = []
         for entry in entries:
             name = (entry.get("name") or "").strip()
             category = entry.get("category")
-            if name and category:
+            if not name:
+                continue
+            loaded.append(
+                {
+                    "id": entry.get("id"),
+                    "name": name,
+                    "category": category,
+                    "selfCreated": bool(entry.get("selfCreated", False)),
+                }
+            )
+            if category:
                 self._by_name.setdefault(_normalize(name), category)
+        self._entries = loaded
 
     def category_for(self, name: str) -> str | None:
         return self._by_name.get(_normalize(name))

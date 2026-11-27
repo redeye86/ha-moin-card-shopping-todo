@@ -15,6 +15,8 @@ Konto-Einrichtung, HA-Integration, Erkenntnisse) liegen in [`docs/`](docs/README
 
 - `todo`-Entities: eine pro MoinCard-Einkaufsliste (Hauptliste heißt meist
   „Einkaufsliste“).
+- Zusätzlich ein **read-only `todo`-Entity „Vokabular“** als Produktkatalog
+  (Name + Kategorie) für Sprach-/LLM-Agenten.
 - Anzeige der **Menge** als `Nx Name` (`2x Milch`).
 - **Kategorie wird automatisch** aus dem MoinCard-Vokabular (Standardliste +
   persönliche Einträge) gesetzt.

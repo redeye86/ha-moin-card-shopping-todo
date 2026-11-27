@@ -7,6 +7,7 @@ from unittest.mock import AsyncMock, patch
 import pytest
 from homeassistant.components.todo import DOMAIN as TODO_DOMAIN
 from homeassistant.core import HomeAssistant
+from homeassistant.exceptions import HomeAssistantError
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
 from custom_components.moincard.api import ShoppingList
@@ -79,10 +80,11 @@ async def _setup(hass: HomeAssistant) -> MockConfigEntry:
     return entry
 
 
-def _todo_entity_id(hass: HomeAssistant) -> str:
+def _todo_entity_id(hass: HomeAssistant, needle: str = "einkaufsliste") -> str:
     for state in hass.states.async_all(TODO_DOMAIN):
-        return state.entity_id
-    raise AssertionError("no todo entity")
+        if needle in state.entity_id:
+            return state.entity_id
+    raise AssertionError(f"no todo entity matching {needle!r}")
 
 
 async def test_setup_and_items(hass: HomeAssistant, mock_api) -> None:
@@ -206,3 +208,30 @@ async def test_add_item_service(hass: HomeAssistant, mock_api) -> None:
     _, kwargs = add.call_args
     assert kwargs["quantity"] == 6
     assert kwargs["gtin"] == "4008165000016"
+
+
+async def test_vocabulary_list_is_readonly_catalog(
+    hass: HomeAssistant, mock_api
+) -> None:
+    await _setup(hass)
+    entity_id = _todo_entity_id(hass, "vokabular")
+
+    result = await hass.services.async_call(
+        TODO_DOMAIN,
+        "get_items",
+        {"entity_id": entity_id},
+        blocking=True,
+        return_response=True,
+    )
+    items = result[entity_id]["items"]
+    assert [i["summary"] for i in items] == ["Milch"]
+    assert "Frische" in items[0]["description"]
+
+    # read-only catalog -> adding must fail
+    with pytest.raises(HomeAssistantError):
+        await hass.services.async_call(
+            TODO_DOMAIN,
+            "add_item",
+            {"entity_id": entity_id, "item": "Neuer Artikel"},
+            blocking=True,
+        )
