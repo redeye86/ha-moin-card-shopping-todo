@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MOIN CARD",
+        "description": "Sign in with your MOIN CARD account.",
+        "data": {
+          "username": "Email address",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate MOIN CARD",
+        "description": "The password for {username} is no longer valid.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Failed to connect to the MOIN CARD API.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "MOIN CARD options",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "services": {
+    "add_item": {
+      "name": "Add item",
+      "description": "Add an item (optionally with EAN) to a MOIN CARD shopping list.",
+      "fields": {
+        "name": { "name": "Name", "description": "Item name." },
+        "quantity": { "name": "Quantity", "description": "Quantity." },
+        "ean": { "name": "EAN/GTIN", "description": "Optional EAN for scan matching." },
+        "category": { "name": "Category", "description": "Optional category." },
+        "unit": { "name": "Unit", "description": "Optional unit." },
+        "list_id": { "name": "List", "description": "Optional list identifier." },
+        "entry_id": { "name": "Config entry", "description": "Optional config entry." }
+      }
+    }
+  }
+}

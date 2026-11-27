@@ -1,0 +1,52 @@
+add_item:
+  name: Artikel hinzufügen
+  description: >-
+    Fügt einer MOIN CARD Einkaufsliste einen Artikel hinzu. Optional kann eine
+    EAN/GTIN mitgegeben werden, damit später ein Scan (Scan & Go) den Artikel
+    automatisch abhaken kann.
+  fields:
+    entry_id:
+      name: Config-Eintrag
+      description: Optionaler Config-Entry (nur nötig bei mehreren Konten).
+      required: false
+      selector:
+        text:
+    list_id:
+      name: Liste
+      description: internalId, numerische ID oder Name der Liste (Standard erste Liste).
+      required: false
+      selector:
+        text:
+    name:
+      name: Name
+      description: Artikelname (z. B. "Krombacher Pils").
+      required: true
+      selector:
+        text:
+    quantity:
+      name: Menge
+      description: Menge (Standard 1).
+      required: false
+      default: 1
+      selector:
+        number:
+          min: 1
+          max: 999
+    ean:
+      name: EAN/GTIN
+      description: Optionale EAN/GTIN - nötig, damit ein Scan den Artikel findet.
+      required: false
+      selector:
+        text:
+    category:
+      name: Kategorie
+      description: Optionale Kategorie (sonst automatisch aus dem Vokabular).
+      required: false
+      selector:
+        text:
+    unit:
+      name: Einheit
+      description: Optionale Einheit (z. B. "Flasche").
+      required: false
+      selector:
+        text:

@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MOIN CARD",
+        "description": "Melde dich mit deinem MOIN CARD Konto an.",
+        "data": {
+          "username": "E-Mail-Adresse",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "MOIN CARD neu anmelden",
+        "description": "Das Passwort für {username} ist nicht mehr gültig.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "E-Mail oder Passwort ist falsch.",
+      "cannot_connect": "Verbindung zur MOIN CARD API fehlgeschlagen.",
+      "unknown": "Unerwarteter Fehler."
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist schon konfiguriert.",
+      "reauth_successful": "Erneut angemeldet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "MOIN CARD Optionen",
+        "data": {
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    }
+  },
+  "services": {
+    "add_item": {
+      "name": "Artikel hinzufügen",
+      "description": "Fügt einen Artikel (optional mit EAN) zu einer MOIN CARD Einkaufsliste hinzu.",
+      "fields": {
+        "name": { "name": "Name", "description": "Artikelname." },
+        "quantity": { "name": "Menge", "description": "Menge." },
+        "ean": { "name": "EAN/GTIN", "description": "Optionale EAN für Scan-Matching." },
+        "category": { "name": "Kategorie", "description": "Optionale Kategorie." },
+        "unit": { "name": "Einheit", "description": "Optionale Einheit." },
+        "list_id": { "name": "Liste", "description": "Optionaler Listen-Identifier." },
+        "entry_id": { "name": "Config-Eintrag", "description": "Optionaler Config-Entry." }
+      }
+    }
+  }
+}
