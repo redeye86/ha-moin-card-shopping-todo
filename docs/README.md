@@ -12,6 +12,7 @@ herauskam.
 | [produkte-und-vokabular.md](produkte-und-vokabular.md) | Woher Produkte/Namen/Kategorien/EAN/Preise kommen |
 | [konto-einrichtung.md](konto-einrichtung.md) | Kunden-Datensatz anlegen (nötig für die Einkaufsliste) |
 | [home-assistant.md](home-assistant.md) | Architektur + Verhalten der HA-Integration |
+| [dashboard-card.md](dashboard-card.md) | Fertige Dashboard-Card, Helper, Scripts & Automationen |
 | [erkenntnisse.md](erkenntnisse.md) | Kurz-Zusammenfassung, Stolperfallen, Grenzen |
 
 ## Kurzfassung

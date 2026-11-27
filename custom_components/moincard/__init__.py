@@ -80,8 +80,8 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
             name,
             quantity=call.data.get("quantity", 1),
             category=category,
-            gtin=call.data.get("ean"),
-            unit=call.data.get("unit"),
+            gtin=call.data.get("ean") or None,
+            unit=call.data.get("unit") or None,
         )
         await coordinator.async_request_refresh()
 
